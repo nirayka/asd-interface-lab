@@ -5,9 +5,11 @@ public class Main {
         myDice.unlock(54321);
         myDice.unlock(12345);
         myDice.roll();
-        myDice.roll();
-        myDice.roll();
+        myDice.printLockState();
+        myDice.view();
+        myDice.roll(3);
         myDice.lock(12345);
         myDice.roll();
+        myDice.view();
     }
 }
